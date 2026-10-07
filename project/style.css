@@ -1,0 +1,49 @@
+/* beginner stylesheet - lavender wedding palette */
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: #333333;
+  background-color: #f5f0ff;
+}
+
+/* ID selector */
+#top {
+  background-color: #7c3aed;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: #7c3aed;
+}
+
+nav a:hover {
+  color: #5b21b6;
+}
+
+nav a:visited {
+  color: #9ca3af;
+}
+
+/* Class selector */
+.beach {
+  background-color: white;
+  padding: 10px;
+}
+
+/* span styles */
+.emphasize {
+  color: #7c3aed;
+}
+
+/* de-emphasize used in the footer */
+.deemphasize {
+  color: #9ca3af;
+}
+
+
+
+footer a {
+  color: #9ca3af;
+}
