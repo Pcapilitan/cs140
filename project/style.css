@@ -22,10 +22,6 @@ nav a:hover {
   color: #5b21b6;
 }
 
-nav a:visited {
-  color: #9ca3af;
-}
-
 /* Class selector */
 .beach {
   background-color: white;
