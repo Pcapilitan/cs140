@@ -1,10 +1,10 @@
 body {
-    background-image: url('back.jpeg');
+    background-image: url('back.jpeg'); /*2 og 3 background image, 3 and repeat niya*/
     background-repeat: repeat;
     font-family: Alex brush, cursive;
-    margin: 14px;
-    padding: 14px;
-    line-height: 1;
+    margin: 14px;/*mao ni space sa gawas sa page*/
+    padding: 14px;/*mao space sulod sa page*/
+    line-height: 1; /*mao niverital spacing sa lines*/
 }
 
 h1, h2, h3, h4 {
@@ -37,19 +37,19 @@ header {
 
 nav {
     background-color: #1e192c;
-    border-radius: 5px;
+    border-radius: 5px;/*round the corners*/
     border-bottom: 1px solid #382e54;
     position: sticky;
     top: 0;
 }
 
 nav ul {
-    list-style: none;
+    list-style: none;/*tangtang bullets points sa islands*/
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/*googles = para mo adjust and text if gamay ang screen*/
 }
 
 
@@ -80,20 +80,16 @@ footer {
     border-radius: 5px;
     color: #9a8ec5;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem;/*2x16px*/
     border-top: 1px solid #2f2547;
-    font-size: 0.9rem;
-    margin-top: 4rem;
+    font-size: 0.9rem;/*0.9x16px*/
+    margin-top: 4rem;/*4x16px*/
 }
 
-.photo-card {
-    background-color: #2b233e;
-    border-radius: 4px;
-    margin-bottom: 1em;
-}
+
 
 figure {
-    margin: 0;
+    margin: 4px 0;
 }
 
 .photo-card img {
