@@ -1,0 +1,118 @@
+/* ==========================================================
+   STYLE.CSS - LAVENDER BLUE PHILIPPINE ISLAND PHOTO TOUR
+   ========================================================== */
+
+/* 1. Global Styles & Repeating Background Placeholder */
+body {
+    /* PLACE YOUR REPEATING BACKGROUND IMAGE URL / PATH HERE: */
+    background-image: url('back.jpeg');
+    background-repeat: repeat;
+    font-family: Alex brush, cursive;
+    margin: 14px;
+    padding: 14px;
+    line-height: 1;
+}
+/* Consistent Font & Color Scheme */
+h1, h2, h3, h4 {
+    color: #473a69;
+    font-family: alex brush, cursive;
+}
+
+p, li{
+    color: #9e97b8;
+}
+
+a {
+    color: #b1a2e9;
+    text-decoration: none;
+   
+}
+
+a:hover {
+    color: #8f65b1;
+}
+
+/* 2. Header Section */
+header {
+    padding: 10px 10px 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 80px;
+}
+
+
+/* 3. Navigation Section */
+nav {
+    background-color: #1e192c;
+    border-radius: 5px;
+    border-bottom: 1px solid #382e54;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+nav a {
+    display: block;
+    padding: 15px 25px;
+    font-weight: 500;
+    color: #c8c0e7;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+nav a:hover, nav a.active {
+    background-color: #382e54;
+    color: #ffffff;
+    border-bottom: 3px solid #b1a2e9;
+}
+
+/* 4. Main Content Layout */
+main {
+    margin: 10px auto;
+    background-color: #221c33;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* 5. Footer Section */
+footer {
+    background-color: #282241f9;
+    border-radius: 5px;
+    color: #9a8ec5;
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #2f2547;
+    font-size: 0.9rem;
+    margin-top: 4rem;
+}
+
+/* 7. Photo & Figure Styling */
+.photo-card {
+    background-color: #2b233e;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+figure {
+    margin: 0;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
