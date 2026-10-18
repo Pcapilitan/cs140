@@ -34,14 +34,7 @@ nav ul {
     flex-wrap: wrap;/*googles = para mo adjust and text if gamay ang screen*/
 }
 
-main ul {
-    list-style-image: url('bullet.png');
-    text-align: left;
-    padding: 20px 40px 40px;
-    color: #e0adff;
-}
-
-h2, p {
+h3, p {
     text-align: center;
     color: #e0c0f5;
     padding: 0 20px;
@@ -50,9 +43,11 @@ h2, p {
 }
 
 main.islands {
+    color: #e0c0f5;
     background-image: url('bc.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: center;
+    background-size: cover;
     padding: 20px;
 }
 
@@ -69,6 +64,6 @@ footer {
     background-color: #332c50f9;
     border-radius: 5px;
     text-align: center;
-    padding: 2px;
-    font-size: 12px;
+    padding: 1rem;
+    font-size: 1.3em;
 }
