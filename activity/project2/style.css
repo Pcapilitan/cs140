@@ -1,0 +1,74 @@
+body {
+    font-family: 'Alex Brush', cursive;
+    background-image: url('back.jpeg');
+    background-repeat: repeat;
+}
+header {
+    background-color: #2f2546;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #e0c0f5;
+}
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #efe2f8;
+}
+nav a {
+    display: block;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #c8c0e7;/*mga link neh*/
+    font-size: 20px;
+}
+
+nav ul {
+    background-color: #2f2546; /*ang islands*/
+    list-style: none;/*tangtang bullets points sa islands*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;/*googles = para mo adjust and text if gamay ang screen*/
+}
+
+main ul {
+    list-style-image: url('bullet.png');
+    text-align: left;
+    padding: 20px 40px 40px;
+    color: #e0adff;
+}
+
+h2, p {
+    text-align: center;
+    color: #e0c0f5;
+    padding: 0 20px;
+    background-color: #332c50f9;
+    border-radius: 5px;
+}
+
+main.islands {
+    background-image: url('bc.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 20px;
+}
+
+img {
+   width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: fill;
+    border-radius: 6px;
+    display: block;
+}
+
+footer {
+    background-color: #332c50f9;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+}
