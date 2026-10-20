@@ -1,13 +1,9 @@
-body {
-    font-family: Alex Brush, cursive;
-    padding: 100px;
-}
-
 .card {
-    background-color: #eacee8; 
     width: 400px;
-    padding: 10px 30px;
+    background-color: #e0e0e0;
+    padding: 10px 30px; /* Condensed 10px 30px 10px 30px */
     border: 3px solid navy;
     box-sizing: border-box;
-    margin: 0 auto 24px auto;
+    margin-bottom: 24px;
+    margin: 0 auto 24px auto; /* horizontally and bottom spacing */
 }

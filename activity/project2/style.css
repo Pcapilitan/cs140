@@ -67,3 +67,8 @@ footer {
     padding: 1rem;
     font-size: 1.3em;
 }
+
+.wrapper {
+    width: 30em;
+    margin: 0 auto;
+}
