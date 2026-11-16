@@ -1,0 +1,7 @@
+.name, .email, .gender, .class, .skills {
+    background-color: #E6E6FA; /* Light lavender */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #D3D3EB;
+   max-width: 175px;
+}

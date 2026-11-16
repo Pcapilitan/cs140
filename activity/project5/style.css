@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f4fb;
+  color: #2b2438;
+}
+
+header {
+  background-color: #c9bce8;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #dcd3f2;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #2b2438;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+main {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  background-color: #ebe5f8;
+  padding: 15px;
+  border: 1px solid #b8a7e0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2b2438;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #b8a7e0;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #8c74c7;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.year-col {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  width: 40px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ede8f9;
+}
+
+footer {
+  background-color: #c9bce8;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+  nav a {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
