@@ -1,70 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>forms  </title>
+  <title>Forms</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
 
-    <h1>Forms</h1>
+  <h1>Forms</h1>
 
-        <form action="#" method="get"> 
-        <div class="name">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required>
-        </div>
-        <br>
+  <form action="#" method="get">
 
-        <div class="email">
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <br>
+    <fieldset>
+      <legend>Fill up here!!!</legend>
 
-        <div class="gender">
-            <label>Gender:</label><br>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-            
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
+      <div class="name">
+        <label for="name">Name:</label>
         <br>
-        </div>
-        <br>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <br>
 
-        <div class="class">
-            <label for="favorite-class">Favorite Class:</label><br>
-            <select id="favorite-class" name="favorite_class">
-                <option value="">Select</option>
-                <option value="math">Mathematics</option>
-                <option value="science">Science</option>
-            </select>
-        </div>
+      <div class="email">
+        <label for="email">Email:</label>
         <br>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <br>
 
-        <div class="skills">
-            <label>Skills:</label><br>
-            <input type="checkbox" id="html" name="skills" value="html">
-            <label for="html">HTML</label><br>
-            
-            <input type="checkbox" id="css" name="skills" value="css">
-            <label for="css">CSS</label><br>
-        </div>
+      <div class="gender">
+        <label>Gender:</label>
         <br>
-
-        <div>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="27"></textarea>
-        </div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
         <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </div>
+      <br>
+    </fieldset>
 
-        <div>
-            <button type="submit">Submit</button>
-        </div>
-        </form>
+    <br>
+
+    <fieldset>
+      <legend>Your Choices</legend>
+
+      <div class="class">
+        <label for="favorite-class">Favorite Class:</label>
+        <br>
+        <select id="favorite-class" name="favorite_class">
+          <option value="">Select</option>
+          <option value="math">Mathematics</option>
+          <option value="science">Science</option>
+        </select>
+      </div>
+      <br>
+
+      <div class="skills">
+        <label>Skills:</label>
+        <br>
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label>
+        <br>
+      </div>
+      <br>
+    </fieldset>
+
+    <br>
+
+    <div>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="15"></textarea>
+    </div>
+    <br>
+
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+
+  </form>
 
 </body>
 </html>
